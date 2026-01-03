@@ -1,6 +1,6 @@
 ## LogAnalyzer – Adaptive Log Analysis & Anomaly Detection CLI
 
-LogIntel is a Python-based command-line tool that analyzes real-world log files,
+LogAnalyzer is a Python-based command-line tool that analyzes real-world log files,
 builds historical baselines, and detects anomalous error spikes using
 explainable, rule-based logic.
 
@@ -19,18 +19,15 @@ using real Apache access logs and stateful analysis.
 
 ##  Project Structure
 
-log_intel/
+LOGAnalyzer/
 ├── src/
-│ └── main.py # CLI entry point & core logic
-│
+│ └── main.py
 ├── logs/
-│ └── apache_access.log # Real-world Apache log file
-│
+│ └── apache_access.log
 ├── state/
-│ └── system_state.json # Persistent system memory
-│
+│ └── system_state.json
 ├── README.md
-
+└── .gitignore
 
 ##  How It Works
 
