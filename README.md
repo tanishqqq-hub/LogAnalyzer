@@ -19,7 +19,7 @@ using real Apache access logs and stateful analysis.
 
 ##  Project Structure
 
-LOGAnalyzer/
+LogAnalyzer/
 ├── src/
 │ └── main.py
 ├── logs/
