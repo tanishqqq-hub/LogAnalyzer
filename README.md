@@ -28,6 +28,8 @@ LogAnalyzer/
 │ └── system_state.json
 ├── README.md
 └── .gitignore
+└──__init__.py
+
 
 ##  How It Works
 
